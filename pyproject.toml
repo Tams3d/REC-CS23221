@@ -1,0 +1,18 @@
+[project]
+name = "REC-CS23221"
+version = "0.1.0"
+description = "Python Programming Lab (CS23221) - Structured problem solving with skill builders, practice, and challenge exercises"
+authors = [{ name = "Tamil Selvan" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.9",
+]

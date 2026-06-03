@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Mac / Windows junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing / temp files
+temp*.py
+test.py
+
+# Jupyter
+.ipynb_checkpoints/

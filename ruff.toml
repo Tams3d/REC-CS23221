@@ -1,0 +1,41 @@
+line-length = 79
+
+[lint]
+
+# Rules to check (select):
+select = [
+  "F",      # Pyflakes: detects undefined names, unused imports, etc.
+  "E", "W", # Pycodestyle errors and warnings (style issues)
+  "I",      # isort import sorting rules
+  "N",      # PEP8 naming conventions
+  "UP",     # Pyupgrade: helps modernize Python syntax
+  "C4",     # Comprehension-related best practices
+  "SIM",    # Simplification rules for code
+  "ISC",    # Good string concatenation practices
+  "RET",    # Return statement consistency
+  "RUF",    # Ruff native rules for Python best practices
+  "PERF",   # Performance improvements and common inefficiencies
+  "PD",     # Pandas-specific linting rules
+  "NPY",    # NumPy-specific linting rules
+]
+
+# Rules to ignore because they're either noisy or not relevant in your context
+ignore = [
+  "D100",    # Missing docstring in module
+  "D104",    # Missing docstring in public package
+  "D107",    # Missing docstring in __init__ file
+  "RUF013",  # Mutable class variables
+  "W291",    # Allow trailing whitespaces
+  "B008",    # Function calls in default argument values
+  "N816",    # MixedCase global variables
+  "N806",    # MixedCase in Function scope variables
+  "NPY002",  # Allow legacy numpy random usage
+  "PD010" ,  # Allow unstack() and pivot()
+  "PD013",   # Allow stack()
+  "SIM109",  # Allow multiple equality comparisons
+]
+
+[format]
+line-ending = "lf" # Use `\n` line endings for all files
+docstring-code-format = true # Enable reformatting of code snippets in docstrings
+docstring-code-line-length = 60 # Format all docstring code snippets with a line length of 60
