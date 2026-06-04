@@ -1,0 +1,8 @@
+arr1 = set(map(int, input().split()))
+arr1 = set(filter(lambda x: x % 2 == 0, arr1))
+arr2 = set(map(int, input().split()))
+arr2 = set(filter(lambda x: x % 2, arr2))
+print(sorted(arr1))
+print(sorted(arr2))
+print(sorted(arr1 | arr2))
+print(sum(arr1 | arr2))
