@@ -1,4 +1,4 @@
-lst1 = lst2 = list(map(int, input().strip().split()))
+lst1 = list(map(int, input().strip().split()))
 
 print("List1:", lst1)
 
