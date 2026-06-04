@@ -1,0 +1,5 @@
+n = int(input())
+alice = set(map(int, input().split()))
+m = int(input())
+bob = set(map(int, input().split()))
+print(*sorted(alice - bob))
