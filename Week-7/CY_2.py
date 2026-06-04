@@ -1,0 +1,5 @@
+reg = set(map(int, input().split()))
+att = set(map(int, input().split()))
+drop = set(map(int, input().split()))
+print(reg & att)
+print(reg & att - drop)
