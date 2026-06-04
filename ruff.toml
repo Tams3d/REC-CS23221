@@ -33,6 +33,8 @@ ignore = [
   "PD010" ,  # Allow unstack() and pivot()
   "PD013",   # Allow stack()
   "SIM109",  # Allow multiple equality comparisons
+  "E731",     # Allow lambda assignment
+  "PERF401"  # Allow list transformations in loops
 ]
 
 [format]
