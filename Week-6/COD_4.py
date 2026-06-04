@@ -1,0 +1,6 @@
+nums = list(input().split())
+idx = int(input())
+val = input()
+nums.pop(idx)
+nums.insert(idx, val)
+print(tuple(nums))
