@@ -1,8 +1,12 @@
+<div align="center">
+
 # REC-CS23221
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) [![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/) [![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=flat-square&logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c?style=flat-square&logo=python&logoColor=white)](https://matplotlib.org/) [![Ruff](https://img.shields.io/badge/Ruff-Linter-D7FF64?style=flat-square&logo=ruff&logoColor=black)](https://github.com/astral-sh/ruff) [![uv](https://img.shields.io/badge/uv-DE5FE9?style=flat-square&logo=python&logoColor=white)](https://github.com/astral-sh/uv) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://opensource.org/licenses/MIT) [![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/Tams3d/REC-CS23221)
 
-**Python Programming Lab (CS23221)** work from Rajalakshmi Engineering College.
+**Python Programming Lab (CS23221)**
+
+</div>
 
 ## Contents
 
